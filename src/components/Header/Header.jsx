@@ -16,11 +16,11 @@ export default function Header() {
                 <li className='header-li'>project</li>
             </ul>
 
-            <button className='basis-1/6 ml-10 p-2 flex justify-center items-center'>
+            <a href='https://github.com/Karin1412' className='basis-1/6 ml-10 p-2 flex justify-center items-center'>
               <span className='inline-block p-2 border-2 border-solid border-amber-700 font-semibold text-amber-700 hover:bg-amber-700 hover:text-white'>
                 CONTACT ME
               </span>
-            </button>
+            </a>
             
         </nav>
     </header>
