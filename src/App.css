@@ -1,0 +1,9 @@
+.background {
+  background-image: url('assets/bg.jpg'); /* Đường dẫn tới hình nền */
+  background-size: cover; /* Đảm bảo hình nền bao phủ toàn bộ màn hình */
+  background-position: center; /* Căn giữa hình nền */
+  min-height: 100vh; /* Đảm bảo chiều cao tối thiểu là toàn bộ chiều cao của viewport */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
