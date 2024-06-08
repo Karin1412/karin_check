@@ -2,6 +2,7 @@ import Header from "./components/Header/Header"
 import Intro from "./components/Intro/Intro"
 import './App.css'
 import Project from "./components/Project/Project"
+import Contact from "./components/Contact/Contact"
 
 export default function App() {
   return (
@@ -9,7 +10,7 @@ export default function App() {
       <Header></Header>
       <Intro></Intro>
       <Project></Project>
-      <div>EXPERIENCES</div>
+      <Contact></Contact>
     </div>
   )
 }
