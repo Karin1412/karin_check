@@ -1,0 +1,19 @@
+.hide-scrollbar {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+  overflow-x: auto; /* Cho phép cuộn ngang khi cần thiết */
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
+}
+
+.slide-down {
+  transition: transform 0.5s ease;
+  transform: translateY(0);
+}
+
+.slide-up {
+  transition: transform 0.5s ease;
+  transform: translateY(-100%);
+}
