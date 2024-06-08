@@ -14,6 +14,7 @@ export default function Header() {
                 <li className='header-li'>home</li>
                 <li className='header-li'>skill</li>
                 <li className='header-li'>project</li>
+                <li className='header-li'>contact</li>
             </ul>
 
             <a href='https://github.com/Karin1412' className='basis-1/6 ml-10 p-2 flex justify-center items-center'>
